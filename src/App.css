@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.landing{
+  width: 100%;
+  height: 100vh;
+  background: url(./Images/Altos\ Adventure\ Indie\ GIF\ -\ Find\ &\ Share\ on\ GIPHY.gif);
+  background-blend-mode: overlay;
+  background-color: rgb(1, 1, 26);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+
+}
+.inner{
+  width: 90%;
+  /* background-color: bisque; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text{
+  width: 40%;
+  height: fit-content;
+  /* background-color: blue; */
+}
+.text h1{
+  font-size: 100px;
+  line-height: 100px;
+  color: rgb(252, 195, 7);
+  /* background-color: chartreuse; */
+}
+.text h6{
+  font-size: 22px;
   color: white;
+  margin-top: 20px;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text button{
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  font-size: 12px;
+  font-family: cursive;
+  background-color: rgb(252, 195, 7);
 }
